@@ -86,6 +86,108 @@ body{
     margin-top: -10px;
 }
 /*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj*/
+
+.donation-plan-heading{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.donation-plan-heading h2{
+    font-size: 36px;
+}
+.donation-plan-heading p{
+    font-size: 20px;
+}
 .donation-plan-column{
     display: flex;
+    gap: 30px;
+    margin: 2% 10% 5% 10%;
+}
+
+.column-1 .column-2 .column-3 h2{
+    font-size: 24px;
+}
+.column-1 .column-2 .column-3 p{
+    font-size: 18px;
+}
+.column-1 {
+    border: 2px solid #EDF5F6;
+    border-radius: 4px;
+    background-color: #EDF5F6;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+.column-2 {
+    border: 2px solid #FFEEEE;
+    border-radius: 4px;
+    background-color: #FFEEEE;
+    text-align: center;
+    padding: 40px 30px;
+    width: 100%;
+
+}
+.column-3 {
+    border: 2px solid #FFF4D6;
+    border-radius: 4px;
+    background-color: #FFF4D6;
+    text-align: center;
+    padding: 40px 30px;
+    width: 100%;
+}
+
+/* Bonus Features Css*/
+.subscription-text{
+    text-align: center;
+}
+.subscription-text h2{
+    font-size: 36px;
+}
+.subscription-text p{
+    font-size: 18px;
+}
+.subscription-form{
+    background-color: #FFF4D6;
+    border: 2px solid #FFF4D6;
+    border-radius: 6px;
+    text-align: center;
+    margin: 2% 20% 5% 20%;
+    padding: 80px 60px 80px 60px;
+}
+.text-area{
+    padding: 14px;
+    width: 40%;
+    border: 2px solid #d9d9d9;
+    border-radius: 6px 0px 0px 6px;
+    background-color: #d9d9d9;
+}
+
+.subscription-btn{
+    padding: 8px 30px 12px 30px;
+    border: 2px solid #FF5959;
+    border-radius: 0px 6px 6px 0px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: -5px;
+    
+
+}
+/*Footer*/
+.footer-design{
+    background-color: #000000;
+    padding: 30px 0px;
+    
+}
+.footer-design h2{
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+    color: #FF5959;
+    
+}
+.footer-design p{
+    text-align: center;
+    color: #ffffff98;
+    margin: 0px;
+    
 }
