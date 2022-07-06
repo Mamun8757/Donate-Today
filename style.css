@@ -5,7 +5,7 @@ body{
     
 }
 .hero-section{
-    background-image: url(assets/donation7.jpg);
+    background-image: url(assets/bg-1.jpg);
     background-size: cover;
     background-position: top-center;
     background-repeat: no-repeat;
@@ -75,16 +75,20 @@ body{
     border: 2px solid #ff5959;
     background-color: #FFEEEE;
 }
-.custom-amount h4{
+.custom-amount{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #cecacaa9;
     text-align: center;
-    color: #999292;
-}
-.custom-amount hr{
     width: 50%;
-    margin-bottom: 40px;
-    color: #b8adad41;
-    margin-top: -10px;
+    margin: 2% 0 2% 25%;
+    padding: 5px;
 }
+.custom-amount:focus{
+    outline: 1px solid #ffffff2d;
+    
+}
+
 /*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj*/
 
 .donation-plan-heading{
@@ -137,6 +141,63 @@ body{
 }
 
 /* Bonus Features Css*/
+.success-text{
+    text-align: center;
+}
+.success-text h2{
+    font-size: 36px;
+}
+.success-text p{
+    font-size: 18px;
+    margin-top: -25px;
+}
+.success-columns{
+    display: flex;
+    gap: 20px;
+    margin: 2% 5% 5% 5%;
+}
+.success-column-1 img {
+    width: 100%;
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+}
+.success-column-2 img{
+    width: 100%;
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+}
+.success-column-3 img{
+    width: 100%;
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+}
+.success-column-1{
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+}
+.success-column-2 {
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+}
+
+.success-column-3 {
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+}
+.spent-amount{
+    display: flex;
+    gap: 50%;
+    
+}
+.spent-amount h3{
+    color: #FF5959;
+}
 .subscription-text{
     text-align: center;
 }
