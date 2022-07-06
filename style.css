@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-position: top-center;
     background-repeat: no-repeat;
-    height: 630px;
+    height: 660px;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -31,7 +31,8 @@ body{
     font-size: 20px;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .btn a{
     color: #ffffff;
@@ -39,7 +40,6 @@ body{
     font-size: 20px;
     text-decoration: none;
     margin-left: 45% ;
-    
     background-color: tomato;
     border: 2px solid tomato;
     border-radius: 6px;
